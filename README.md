@@ -1,0 +1,1 @@
+This is a simple primary school website design built using HTML, CSS, and jQuery
