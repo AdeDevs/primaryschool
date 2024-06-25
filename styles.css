@@ -164,14 +164,14 @@ h6,
 /*** Navbar ***/
 .navbar .navbar-nav .nav-link {
   padding: 30px 15px;
-  color: rgb(255, 255, 255);
+  color: var(--light);
   font-weight: 500;
   outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-  color: rgb(3, 41, 255);
+  color: var(--primary);
 }
 
 .navbar.sticky-top {
@@ -526,8 +526,9 @@ h6,
   color: #cecece;
 }
 
+
 .footer .btn.btn-link:hover {
-  color: var(--blue) !important;
+  color: var(--primary) !important;
   letter-spacing: 1px;
   box-shadow: none;
 }
